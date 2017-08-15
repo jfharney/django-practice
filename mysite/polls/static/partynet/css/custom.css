@@ -1,0 +1,149 @@
+.navbar-custom {
+	background-color:#6495ed;
+  color:#ffffff;
+}
+
+.navbar-custom .navbar-nav > li > a {
+  color:#fff;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+  color: #ffffff;
+	background-color:transparent;
+}
+
+.navbar-custom .navbar-brand {
+  	color:#eeeeee;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+  text-decoration: none;
+  background-color: #3f7ef2;
+}
+
+.navbar-custom .navbar-toggle {
+  background-color:#eeeeee;
+}
+.navbar-custom .icon-bar {
+  background-color:#3f7ef2;
+}
+
+.navbar-right > .active  {
+  background-color: #3f7ef2;
+}
+
+.inputs {
+	width: 100%;
+	background-color: #C3D0E8;
+}
+
+body {
+  padding: 45px 0 0 0;
+}
+
+.inputs {
+  padding: 20px 0px 0px 0px;
+}
+
+.table-title h4 {
+  color: teal;
+}
+
+.h-divider{
+ margin-top:5px;
+ margin-bottom:5px;
+ height:3px;
+ width:100%;
+ border-top:2px solid teal;
+}
+
+.links .link {
+  stroke: #B3B3B3;
+  stroke-opacity: 0.6;
+}
+
+.links .link-active {
+  stroke: #000;
+  stroke-opacity: 1;
+}
+
+.node circle {
+  stroke:#ffffff;
+  stroke-width: 2px;
+  fill-opacity: 0.75;
+}
+
+.node-active circle {
+  stroke:#000;
+  stroke-width: 2px;
+  fill-opacity: 1
+}
+
+.nodes g text {
+  fill: #ffffff;
+  font-family: FontAwesome;
+  font-size: 13px;
+  pointer-events: none;
+}
+
+
+.legend .lnode .licon {
+  fill: #ffffff;
+  font-family: FontAwesome;
+  font-size: 13px;
+  pointer-events: none;
+}
+
+.legend .lnode .llabel {
+  fill: #000;
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 12px;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: left;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 2px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.d3-context-menu {
+	position: absolute;
+	display: none;
+	background-color: #f3f3f3;
+	border-radius: 4px;
+
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	min-width: 150px;
+	border: 1px solid #d4d4d4;
+
+	z-index:1200;
+}
+
+.d3-context-menu ul {
+	list-style-type: none;
+	margin: 4px 0px;
+	padding: 0px;
+	cursor: default;
+}
+
+.d3-context-menu ul li {
+	padding: 4px 16px;
+}
+
+.d3-context-menu ul li:hover {
+	background-color: #4677f8;
+	color: #fefefe;
+}
